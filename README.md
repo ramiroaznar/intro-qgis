@@ -52,6 +52,11 @@ medir aproximadamente el tramo.
 
 ## Herramientas de Geoproceso
 
+El geoprocesamiento es uno de las operaciones más útiles que presenta un software GIS. QGIS 
+presenta una selección de las más potentes, además otras tantas pueden ser añadidas a través
+de *plugins*. Entre ellas hemos destacado las operaciones de `intersección`, `buffer`, `diferencia`
+y `corte`.
+
 ### Intersección
 
 ![Intersect ENP](imgs/intersect_enp_ccaa.png)
