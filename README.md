@@ -101,7 +101,28 @@ Usaremos la capa buffer de espacios protegidos de Madrid recién creada como `ca
 
 ### Corte
 
+La operación de corte o "clip" también podría considerarse como una de las más comunes dentro de las herramientas GIS. Al contrario que la anterior operación, una capa es cortada por otra considerada como "molde" o "máscara" dando lugar a una nueva con las características de la primera pero la geometría de la segunda.
+
+En nuestro ejemplo usaremos la capa de los límites administrativos de España (`capa vectorial de entrada`) y la cortaremos con la capa de la Comunidad de Madrid (`capa de corte`). Y después de darl enombre a la capa de salida obtendremos una nueva capa vectorial con la superfice de Madrid pero con los atributos de la capa de España.
+
 ![Corte](imgs/corte.png)
 
-
 **Bonus** Post recomendado: [*Las 10 herramientas de Geoprocesamiento fundamentales en GIS*](http://mappinggis.com/2014/10/herramientas-de-geoprocesamiento-en-gis/).
+
+## Herramientas de Investigación
+
+# Selección por Localización
+
+# Selección por Expresión
+
+## Herramientas de Geometría
+
+# Centroides de Polígonos
+
+# Polígonos de Voronoi
+
+# Polígonos a Líneas
+
+# Líneas a Polígonos
+
+## Herramientas de Geometría
