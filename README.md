@@ -1,4 +1,4 @@
-# Análisis Vectorial I
+# Análisis Vectorial
 
 En este curso de *Introducción a QGIS* únicamente se explicará las herramientas de análisis
 de uno de los tipos de datos geoespaciales: **los archivos o datos vectoriales**. QGIS tiene en 
@@ -111,18 +111,16 @@ En nuestro ejemplo usaremos la capa de los límites administrativos de España (
 
 ## Herramientas de Investigación
 
-# Selección por Localización
+### Selección por Localización
 
-# Selección por Expresión
-
-## Herramientas de Geometría
-
-# Centroides de Polígonos
-
-# Polígonos de Voronoi
-
-# Polígonos a Líneas
-
-# Líneas a Polígonos
+### Selección por Expresión
 
 ## Herramientas de Geometría
+
+### Centroides de Polígonos
+
+### Polígonos de Voronoi
+
+### Polígonos a Líneas
+
+### Líneas a Polígonos
