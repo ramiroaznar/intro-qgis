@@ -1,9 +1,9 @@
-# Análisis Vectorial
+# Análisis Vectorial I
 
 En este curso de *Introducción a QGIS* únicamente se explicará las herramientas de análisis
-de uno de los tipos de datos geoespaciales: **los archivos vectoriales**. QGIS tiene en su barra
-de herramientas una pestaña dedicada a este grupo de procedimientos: "Vectorial". Dentro de 
-ella encontraremos las siguientes opciones:
+de uno de los tipos de datos geoespaciales: **los archivos o datos vectoriales**. QGIS tiene en 
+su barra de herramientas una pestaña dedicada a este grupo de procedimientos: "Vectorial". Dentro 
+de ella encontraremos las siguientes opciones:
 
 * OpenStreetMap
 * Herramientas de Análisis
@@ -77,4 +77,4 @@ medir aproximadamente el tramo.
 ![Corte](imgs/corte.png)
 
 
-Post recomendado: [*Las 10 herramientas de Geoprocesamiento fundamentales en GIS*](http://mappinggis.com/2014/10/herramientas-de-geoprocesamiento-en-gis/).
+**Bonus** Post recomendado: [*Las 10 herramientas de Geoprocesamiento fundamentales en GIS*](http://mappinggis.com/2014/10/herramientas-de-geoprocesamiento-en-gis/).
