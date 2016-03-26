@@ -52,13 +52,13 @@ medir aproximadamente el tramo.
 
 ## Herramientas de Geoproceso
 
-# Intersección
+### Intersección
 
-# Buffer
+### Buffer
 
-# Diferencia
+### Diferencia
 
-# Corte
+### Corte
 
 
 Post recomendado: [*Las 10 herramientas de Geoprocesamiento fundamentales en GIS*](http://mappinggis.com/2014/10/herramientas-de-geoprocesamiento-en-gis/).
