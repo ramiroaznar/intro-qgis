@@ -54,19 +54,19 @@ medir aproximadamente el tramo.
 
 ### Intersección
 
-![Buffer Points](imgs/buffer_points.png)
-
-![Buffer Lines](imgs/buffer_lines.png)
-
-![Buffer Polygon](imgs/buffer_poligon.png)
-
-### Buffer
-
 ![Intersect ENP](imgs/intersect_enp_ccaa.png)
 
 ![Intersect Ríos](imgs/intersect_rios_ccaa.png)
 
 ![Ríos & ENP](imgs/rios_enp_madrid.png)
+
+### Buffer
+
+![Buffer Points](imgs/buffer_points.png)
+
+![Buffer Lines](imgs/buffer_lines.png)
+
+![Buffer Polygon](imgs/buffer_poligon.png)
 
 ### Diferencia
 
