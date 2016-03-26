@@ -52,16 +52,22 @@ medir aproximadamente el tramo.
 
 ## Herramientas de Geoproceso
 
-El geoprocesamiento es uno de las operaciones más útiles que presenta un software GIS. QGIS 
+El geoprocesamiento es una de las operaciones más útiles que presenta un software GIS. QGIS 
 presenta una selección de las más potentes, además otras tantas pueden ser añadidas a través
 de *plugins*. Entre ellas hemos destacado las operaciones de `intersección`, `buffer`, `diferencia`
 y `corte`.
 
 ### Intersección
 
+A partir del mecanismo de intersección, el usuario puede cruzar dos capas y obtener una nueva con la combinación deseada de *atributos* y configuración espacial. En nuestro caso queremos obtener de la capa de espacios protegidos (`capa de entrada`) únicamente aquellos que interseccionen con la capa de la Comunidad de Madrid (`capa de intersección`).
+
 ![Intersect ENP](imgs/intersect_enp_ccaa.png)
 
+De igual manera sucede en el caso de los ríos.
+
 ![Intersect Ríos](imgs/intersect_rios_ccaa.png)
+
+Como resultado obtendremos dos capas nuevas, una de espacios protegidos y otra de ríos, ambas limitadas a la Comunidad de Madrid.
 
 ![Ríos & ENP](imgs/rios_enp_madrid.png)
 
