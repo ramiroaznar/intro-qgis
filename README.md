@@ -13,7 +13,7 @@ de ella encontraremos las siguientes opciones:
 * Herramientas de Gestión de Datos
 
 Debido al enfoque introductorio de este curso, de estas seis aplicaciones solo se tratarán 
-cuatro de ellas: `análisis`, `investigación`, `geoproceso` y `geometría`. 
+cuatro de ellas: `análisis`, `investigación`, `geoproceso` y `geometría`. Estos mecanismos permiten al usuario interactuar con una o dos capas vectoriales, pero **siempre que estén en la misma proyección**.
 
 ## Herramientas de Análisis
 
@@ -79,19 +79,23 @@ en carreteras. El mecanismo es en principio sencillo (aunque puede crecer en com
 genera una capa nueva alrededor de otra capa que puede ser de puntos, líneas,
 o polígonos. Esta nueva capa (poligonal) tendrá la superficie de la primera más el "área de influencia" con una `distancia` que el usuario ha decidido previamente. La unidad de medida que presenta este valor está determinada por las propiedades generales del *proyecto* (en nuestro caso *metros*). En el caso de estar trabajando con capas con *proyecciones geográficas* la unidad de medida será en *grados*.
 
-Utilizaremos la capa de vertidos para usarla como ejemplo de buffer de puntos. Seleccionamos esta capa como capa vectorial de entrada, introducimos la `distancia` y damos nombre a la nueva capa de salida. Como era de esperar el resultado son círculos cuyo eje son los puntos.
+Utilizaremos la capa de vertidos para usarla como ejemplo de buffer de puntos. Seleccionamos esta capa como `capa vectorial de entrada`, introducimos la `distancia` y damos nombre a la nueva capa de salida. Como era de esperar el resultado son círculos cuyo eje son los puntos.
 
 ![Buffer Points](imgs/buffer_points.png)
 
-En segundo lugar usaremos la capa de ríos de la Comunidad de Madrid que habíamos generado previamente como ejemplo de buffer de líneas. Seleccionamos esta capa como capa vectorial de entrada, introducimos la `distancia` y damos nombre a la nueva capa de salida.
+En segundo lugar usaremos la capa de ríos de la Comunidad de Madrid que habíamos generado previamente como ejemplo de buffer de líneas. Seleccionamos esta capa como `capa vectorial de entrada`, introducimos la `distancia` y damos nombre a la nueva capa de salida.
 
 ![Buffer Lines](imgs/buffer_lines.png)
 
-Por último, la capa de espacios protegidos de la Comunidad de Madrid que también habíamos generado previamente se usará como ejemplo de buffer de polígonos. Seleccionamos esta capa como capa vectorial de entrada, introducimos la `distancia` y damos nombre a la nueva capa de salida.
+Por último, la capa de espacios protegidos de la Comunidad de Madrid que también habíamos generado previamente se usará como ejemplo de buffer de polígonos. Seleccionamos esta capa como `capa vectorial de entrada`, introducimos la `distancia` y damos nombre a la nueva capa de salida.
 
 ![Buffer Polygon](imgs/buffer_poligon.png)
 
 ### Diferencia
+
+Esta función es muy útil en combinación con la anterior. Como se ha explicado previamente al realizar un buffer se genera un área alrededor de una determinada geometría. Pero en muchas ocasiones solo nos interesa el "donnut", y es necesario hacerle el "agujero". 
+
+Usaremos la capa buffer de espacios protegidos de Madrid recién creada como `capa vectorial de entrada` y la capa de espacios protegidos de Madrid como `capa de diferencia`. Después de darle nombre a la capa de salida este es el resultado:
 
 ![Diferencia](imgs/diferencia.png)
 
