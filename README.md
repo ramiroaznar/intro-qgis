@@ -49,3 +49,16 @@ las *features* donde si que pase una línea podemos utilizar la herramienta `Med
 medir aproximadamente el tramo.
 
 ![Lineas Poligonos](imgs/lineas_poligonos.png)
+
+## Herramientas de Geoproceso
+
+# Intersección
+
+# Buffer
+
+# Diferencia
+
+# Corte
+
+
+Post recomendado: [*Las 10 herramientas de Geoprocesamiento fundamentales en GIS*](http://mappinggis.com/2014/10/herramientas-de-geoprocesamiento-en-gis/).
