@@ -73,6 +73,12 @@ Como resultado obtendremos dos capas nuevas, una de espacios protegidos y otra d
 
 ### Buffer
 
+Los "buffer" pueden ser considerados como las operaciones más propias y más usadas en tecnologías
+GIS. Tienen multitud de aplicaciones, desde la protección de la naturaleza hasta la gestión de ruidos
+en carreteras. El mecanismo es en principio sencillo (aunque puede crecer en complejidad), se
+genera una capa nueva alrededor de otra capa que puede ser de puntos, líneas,
+o polígonos. Esta nueva capa (poligonal) tendrá la superficie de la primera más el "área de influencia" con una `distancia` que el usuario ha decidido previamente. La unidad de medida que presenta este valor está determinada por las propiedades generales del *proyecto* (en nuestro caso *metros*). En el caso de estar trabajando con capas con *proyecciones geográficas* la unidad de medida será en *grados*.
+
 ![Buffer Points](imgs/buffer_points.png)
 
 ![Buffer Lines](imgs/buffer_lines.png)
