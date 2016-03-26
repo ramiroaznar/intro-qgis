@@ -79,9 +79,15 @@ en carreteras. El mecanismo es en principio sencillo (aunque puede crecer en com
 genera una capa nueva alrededor de otra capa que puede ser de puntos, líneas,
 o polígonos. Esta nueva capa (poligonal) tendrá la superficie de la primera más el "área de influencia" con una `distancia` que el usuario ha decidido previamente. La unidad de medida que presenta este valor está determinada por las propiedades generales del *proyecto* (en nuestro caso *metros*). En el caso de estar trabajando con capas con *proyecciones geográficas* la unidad de medida será en *grados*.
 
+Utilizaremos la capa de vertidos para usarla como ejemplo de buffer de puntos. Seleccionamos esta capa como capa vectorial de entrada, introducimos la `distancia` y damos nombre a la nueva capa de salida. Como era de esperar el resultado son círculos cuyo eje son los puntos.
+
 ![Buffer Points](imgs/buffer_points.png)
 
+En segundo lugar usaremos la capa de ríos de la Comunidad de Madrid que habíamos generado previamente como ejemplo de buffer de líneas. Seleccionamos esta capa como capa vectorial de entrada, introducimos la `distancia` y damos nombre a la nueva capa de salida.
+
 ![Buffer Lines](imgs/buffer_lines.png)
+
+Por último, la capa de espacios protegidos de la Comunidad de Madrid que también habíamos generado previamente se usará como ejemplo de buffer de polígonos. Seleccionamos esta capa como capa vectorial de entrada, introducimos la `distancia` y damos nombre a la nueva capa de salida.
 
 ![Buffer Polygon](imgs/buffer_poligon.png)
 
