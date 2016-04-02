@@ -88,7 +88,7 @@ Permite ver, crear, editar o borrar datos desde tu cuenta de CartoDB usando QGIS
 Permite ejecutar consultas desde Qgis para obtener datos de OSM.
 [Enlace](http://plugins.qgis.org/plugins/QuickOSM/)
 
-###Customize ToolBars![](imgs/plugins/13.jpg?raw=true)
+###Customize ToolBars!<img src="imgs/plugins/13.jpg" width="40" height="40">
 
 Permite crear barras de herramientas personalizadas con los botones que el usuario quiera. Solo es necesario arrastrar y soltar los botones desde la parte izquierda a la barra creada en la parte derecha que el usuario quiera.
 [Enlace](http://plugins.qgis.org/plugins/CustomToolBar/)
