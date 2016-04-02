@@ -40,7 +40,7 @@ Esta herramienta puede accederse desde el menú `Vectorial-XY Tools`.
 Herramientas para llevar a cabo funciones de tipo CAD.
 
 Al igual que el resto, volvemos a `Complementos/Administrar e instalar complementos` y buscamos `CadTools`. 
-.
+
 | ***Ejercicio: Con los datos proporcionados de la comunidad de Madrid ver que hacen las herramientas.*** |
 
 ###Qgis2treejs ![](imgs/plugins/6.jpg?raw=true)
