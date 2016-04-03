@@ -2,26 +2,26 @@
 
 ## Menús y barras de herramientas principales
 
-### Menú de Proyecto*
+### Menú de Proyecto
 Este menú contiene las herramientas básicas gestión de proyectos y de archivos, crear un proyecto, guardar, etc.
 Es muy importante el sub-menú **Propiedades del proyecto** que nos permite gestionar las propiedades básicas del proyecto como el título del proyecto, algunos colores de la interfaz y sobretodo el Sistema de *Referencia de Coordenadas* - **SRC** - del proyecto.
 Del diseñador de impresiones se hablará en la última parte del curso.
 
 ![Menú de Proyecto](imgs/interfaz/MenuProyecto.PNG)
-![Barra de Herramientas de Proyecto](imgs/interfaz/BarraProyecto.png)
+![Barra de Herramientas de Proyecto](imgs/interfaz/BarraProyecto.PNG)
 
-### Menú de *Configuración*
+### Menú de Configuración
 Este menú permite modificar las opciones y la configuración del programa, destaca el sub-menú *Opciones* que permite cambiar los ajustes de QGis tales como el idioma, el estilo de la interfaz, el SRC predeterminado, la reproyección al vuelo, etc.
 
 ![Menú de Configuración](imgs/interfaz/MenuConfiguracion.PNG)
-![Opciones](imgs/interfaz/Opciones.png)
+![Opciones](imgs/interfaz/Opciones.PNG)
 
-###Menú *Ver*
+###Menú Ver
 En este menú se encuentran las herramientas para desplazar el mapa, seleccionar objetos y elementos, hacer zum, medir, etc. Generalmente es más comodo acceder a estas herramientas desde la barra de herramientas *Navegación de Mapas* o directamente con los botones del ratón: botón central para desplazar, rueda para zumar, botón izquierdo para seleccionar y derecho para confirmar.
 En el sub-menú *Paneles* y *Barras de Herramientas* se pueden encender o apagar las barras de herramienta de la interfaz gráfica y de los plug-in.
 
 ![Menú Ver](imgs/interfaz/MenuVer.PNG)
-![Barra Ver](imgs/interfaz/BarraVer.png)
+![Barra Ver](imgs/interfaz/BarraVer.PNG)
 
 ##Gestión de Capas
 
@@ -29,7 +29,7 @@ En el sub-menú *Paneles* y *Barras de Herramientas* se pueden encender o apagar
 Este menú, seguramente uno de los más importantes, nos permite gestionar las capas en QGis, está estrictamente enlazado con el **Panel de Capas** y con la barra de herramientas **Administrar Capas**. Desde este menú podemos crear nuevas capas (Shape, Spatialite, etc.), añadir capas existentes al proyecto (vectoriales, raster, WMS...), guardar, conmutar edición, acceder al menú de propiedades de una capa, y abrir la tabla de atributos, entre otras cosas... 
 
 ![Menú Capa](imgs/interfaz/MenuCapa.PNG)
-![Barra Capa](imgs/interfaz/BarraCapa.png)
+![Barra Capa](imgs/interfaz/BarraCapa.PNG)
 
 ###Añadir Capas
 Vamos a ver ahora como añadir algunas capas, todas las capas que vamos a utilizar durante este mini-curso están en la carpeta "*/datos*".
