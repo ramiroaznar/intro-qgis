@@ -88,17 +88,17 @@ Permite ver, crear, editar o borrar datos desde tu cuenta de CartoDB usando QGIS
 Permite ejecutar consultas desde Qgis para obtener datos de OSM.
 [Enlace](http://plugins.qgis.org/plugins/QuickOSM/)
 
-###Customize ToolBars!<img src="imgs/plugins/13.jpg" width="40" height="40">
+###Customize ToolBars <img src="imgs/plugins/13.jpg" width="30" height="30">
 
 Permite crear barras de herramientas personalizadas con los botones que el usuario quiera. Solo es necesario arrastrar y soltar los botones desde la parte izquierda a la barra creada en la parte derecha que el usuario quiera.
 [Enlace](http://plugins.qgis.org/plugins/CustomToolBar/)
 
-###Instagram2qgis![](imgs/plugins/14.jpg?raw=true)
+###Instagram2qgis <img src="imgs/plugins/14.jpg" width="30" height="30">
 
 Permite buscar y descargar imagenes de Instagram y crea un shapefile puntual con las mismas.
 [Enlace](http://plugins.qgis.org/plugins/instagram2qgis/)
 
-###Load QSS - UI themes![](imgs/plugins/15.jpg?raw=true)
+###Load QSS - UI themes <img src="imgs/plugins/15.jpg" width="30" height="30">
 
 Permite cargar archivos de estilo *.qss* y cambiar el "look and feel" de QGIS. Se proporcionan algunos ejemplos.
 [Enlace](http://plugins.qgis.org/plugins/LoadQSS/)
