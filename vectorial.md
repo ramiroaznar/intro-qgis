@@ -5,6 +5,8 @@ de uno de los tipos de datos geoespaciales: **los archivos o datos vectoriales**
 su barra de herramientas una pestaña dedicada a este grupo de procedimientos: "Vectorial". Dentro 
 de ella encontraremos las siguientes opciones:
 
+![Menú vectorial](imgs/vectorial/menu_vectorial.png)
+
 * OpenStreetMap
 * Herramientas de Análisis
 * Herramientas de Investigación
@@ -32,10 +34,22 @@ nuevo campo donde aparecerá el resultado. Por último nombraremos el archivo de
 
 ![Puntos Poligonos Ventana](imgs/vectorial/ptos_poligonos_v.png)
 
+![Puntos Poligonos Ventana](imgs/vectorial/contar_pto_pol_total.png)
+
+Como resultado obtenemos una nueva capa igual que la capa vectorial de polígonos de entrada con los nuevos campos calculados. En nuestro ejemplo habrá añadido los siguientes campos:
+
+- *N_vertidos*: Nº de vertidos dentro de la capa de CCAA
+- *Volumen__n*: suma de los valores del campo “volumen_n” de todos los puntos que están dentro de la capa CCAA.
+
 Es recomendable comprobar que la operación se ha realizado correctamente. Si las dos capas
 no compartían la misma proyección no obtendremos resultado alguno (QGIS nos avisa con antelación).
 
+Como ejercicio adicional, se propone calcular qué municipio tiene mayor nº de vertidos y que municipio tiene mayor volumen de vertido. 
 ![Puntos Poligonos](imgs/vectorial/ptos_poligonos.png)
+
+Como resultado dará que Madrid es el municipio que mayor nº de vertidos tiene (48) vertidos) y que Getafe con tan sólo 2 vertidos es el municipio con mayor volumen de vertido.
+
+![Puntos Poligonos](imgs/vectorial/contar_pto_pol__municipios.png)
 
 ### Sumar Longitud de Líneas
 
@@ -111,16 +125,38 @@ En nuestro ejemplo usaremos la capa de los límites administrativos de España (
 
 ## Herramientas de Investigación
 
+Dentro de las herramientas de investigación nos encontramos con la herramienta de "Seleccionar por localización..." Esta herramienta fundamental nos permite la selección de elementos de una capa a partir de la geometría de una segunda capa.
+
+![Diferencia](imgs/vectorial/herramientas_de_investigacion.png)
+
 ### Selección por Localización
 
-### Selección por Expresión
+Esta herramienta de selección nos permite seleccionar elementos de una capa a partir de los elementos de otra. Para ver cómo funciona, realizaremos el siguiente ejemplo:
+
+- Seleccionar qué vertidos están a menos de 2500 m de los ríos. Para este ejercicio, utilizaremos la capa generada anteriormente con el buffer de los ríos de 2500 m (rios_buffer2500).
+
+![Diferencia](imgs/vectorial/seleccion_por_localizacion_rios_vertidos.png)
+
+El resultado obtenido será la selección de los vertidos (153) que intersectan con la capa de rios_buffer2500.
+
+- Visualmente, los registros seleccionados son aquellos que están de color amarillo.
+
+- En la tabla de la capa, serán aquellos que están de color Azul. (ven siguiente imagen) 
+
+![Diferencia](imgs/vectorial/seleccion_por_localizacion_rios_vertidos_tabla.png)
 
 ## Herramientas de Geometría
 
+Estas herramientas sirven para el análisis de la geometría y la obtención de nuevas capas a partir de la capa inicial.
+
+![Diferencia](imgs/vectorial/herramientas_de_geometria.png)
+
+Como ejemplo, vamos a calcular el centroide de una capa de polígonos, generando una nueva capa de puntos con la información de origen.
+
 ### Centroides de Polígonos
 
-### Polígonos de Voronoi
+Para este ejercicio, vamos a generar el centroide de los municipios.
 
-### Polígonos a Líneas
+![Diferencia](imgs/vectorial/municipios_centroides.png)
 
-### Líneas a Polígonos
+Como resultado obtenemos una nueva capa de tipo puntual donde cada punto está situado en el centroide (calculado por qgis) del municipio. La información asociada al polígono pasa a la capa de puntos.
