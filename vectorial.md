@@ -47,7 +47,7 @@ no compartían la misma proyección no obtendremos resultado alguno (QGIS nos av
 Como ejercicio adicional, se propone calcular qué municipio tiene mayor nº de vertidos y que municipio tiene mayor volumen de vertido. 
 ![Puntos Poligonos](imgs/vectorial/ptos_poligonos.png)
 
-Como resultado dará que Madrid es el municipio que mayor nº de vertidos tiene (48) vertidos) y que Getafe con tan sólo 2 vertidos es el municipio con mayor volumen de vertido.
+Como resultado dará que Madrid es el municipio que mayor nº de vertidos tiene 48 vertidos y que Getafe con tan sólo 2 vertidos es el municipio con mayor volumen de vertido.
 
 ![Puntos Poligonos](imgs/vectorial/contar_pto_pol__municipios.png)
 
