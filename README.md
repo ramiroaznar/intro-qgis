@@ -26,8 +26,9 @@
 
 ## Datos
 
-* Ríos de España.
-* Espacios Naturales Protegidos de España.
-* Comunidad de Madrid.
-* Municipios de Madrid
-* Límites Administrativos de España.
+* Ríos de España. Fuente: MAGRAMA.
+* Vertidos (shp y [csv](/datos/VertidosCAMadrid.csv)). Fuente: CCHH del Tajo.
+* Espacios Naturales Protegidos de la Península Ibérica y Baleares. Fuente: MAGRAMA.
+* Comunidad de Madrid. Fuente: CNIG. BTN100.
+* Municipios de Madrid. Fuente: CNIG. BTN100.
+* Límites Administrativos de España. Fuente: DIVA-GIS.
