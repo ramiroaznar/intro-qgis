@@ -5,8 +5,6 @@ de uno de los tipos de datos geoespaciales: **los archivos o datos vectoriales**
 su barra de herramientas una pestaña dedicada a este grupo de procedimientos: "Vectorial". Dentro 
 de ella encontraremos las siguientes opciones:
 
-
-
 ![Menú vectorial](imgs/menu_vectorial.png)
 
 * OpenStreetMap
@@ -15,7 +13,6 @@ de ella encontraremos las siguientes opciones:
 * Herramientas de Geoproceso
 * Herramientas de Geometría
 * Herramientas de Gestión de Datos
-
 
 Debido al enfoque introductorio de este curso, de estas seis aplicaciones solo se tratarán 
 cuatro de ellas: `análisis`, `investigación`, `geoproceso` y `geometría`. Estos mecanismos permiten al usuario interactuar con una o dos capas vectoriales, pero **siempre que estén en la misma proyección**.
@@ -44,12 +41,10 @@ Como resultado obtenemos una nueva capa igual que la capa vectorial de polígono
 - *N_vertidos*: Nº de vertidos dentro de la capa de CCAA
 - *Volumen__n*: suma de los valores del campo “volumen_n” de todos los puntos que están dentro de la capa CCAA.
 
-
 Es recomendable comprobar que la operación se ha realizado correctamente. Si las dos capas
 no compartían la misma proyección no obtendremos resultado alguno (QGIS nos avisa con antelación).
 
 Como ejercicio adicional, se propone calcular qué municipio tiene mayor nº de vertidos y que municipio tiene mayor volumen de vertido. 
-
 ![Puntos Poligonos](imgs/ptos_poligonos.png)
 
 Como resultado dará que Madrid es el municipio que mayor nº de vertidos tiene (48) vertidos) y que Getafe con tan sólo 2 vertidos es el municipio con mayor volumen de vertido.
