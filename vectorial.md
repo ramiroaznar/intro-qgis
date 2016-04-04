@@ -5,8 +5,6 @@ de uno de los tipos de datos geoespaciales: **los archivos o datos vectoriales**
 su barra de herramientas una pestaña dedicada a este grupo de procedimientos: "Vectorial". Dentro 
 de ella encontraremos las siguientes opciones:
 
-![Menú vectorial](imgs/vectorial/menu_vectorial.png)
-
 * OpenStreetMap
 * Herramientas de Análisis
 * Herramientas de Investigación
