@@ -36,34 +36,46 @@ Para que se muestren correctamente en nuestro diseñador de mapas será necesari
  
 ![Puntos Poligonos Ventana](imgs/mapas/3.jpg)
 
-A)	El **cuerpo del mapa** es la parte más importante puesto que contiene la información del mapa. En este momento vamos a empezar a trabajar en el diseñador de mapas. Para añadir nuestro mapa tendremos que ir al menú `Diseño` -> `Añadir mapa` y dibujar el rectángulo que ocupará nuestro mapa, o bien:
+### Cuerpo del mapa
+
+El **cuerpo del mapa** es la parte más importante puesto que contiene la información del mapa. En este momento vamos a empezar a trabajar en el diseñador de mapas. Para añadir nuestro mapa tendremos que ir al menú `Diseño` -> `Añadir mapa` y dibujar el rectángulo que ocupará nuestro mapa, o bien:
  
 ![Puntos Poligonos Ventana](imgs/mapas/4.jpg)
 
-B)	El **título del mapa** define lo que se está representando. Se puede comparar con el titular de un periódico. Tiene ser conciso al mismo tiempo que ofrece al lector la idea principal del contenido del mapa. Para insertar el título del mapa es necesario ir al menú `Diseño` -> `Añadir etiqueta`, o bien:
+### Título del mapa
+
+El **título del mapa** define lo que se está representando. Se puede comparar con el titular de un periódico. Tiene ser conciso al mismo tiempo que ofrece al lector la idea principal del contenido del mapa. Para insertar el título del mapa es necesario ir al menú `Diseño` -> `Añadir etiqueta`, o bien:
  
 ![Puntos Poligonos Ventana](imgs/mapas/5.jpg)
 
 Esta opción nos permitirá también añadir cualquier tipo de texto a nuestro mapa.
 
-C)	Por definición, un mapa es una representación simplificada del mundo real. En esta simplificación se utilizan símbolos para representar objetos reales. La **leyenda** sirve para explicar la simbología que aparece en el mapa. Generalmente se ubica en un pequeño recuadro en una esquina del mapa.
+### Leyenda del mapa
+
+Por definición, un mapa es una representación simplificada del mundo real. En esta simplificación se utilizan símbolos para representar objetos reales. La **leyenda** sirve para explicar la simbología que aparece en el mapa. Generalmente se ubica en un pequeño recuadro en una esquina del mapa.
 Para insertar la leyenda de nuestro mapa iremos al menú `Diseño` -> `Añadir leyenda`, o bien:
  
 ![Puntos Poligonos Ventana](imgs/mapas/6.jpg)
 
 En las opciones de la derecha del editor de mapas podremos editar las propiedades de la leyenda, como por ejemplo, añadir o quitar elementos, cambiar el nombre, el tipo de fuente, etc.
 
-D)	La **flecha del norte** (denominada también rosa de los vientos) es una figura que muestra las direcciones principales, Norte, Sur, Este y Oeste. En los mapas se utilizan para indicar la dirección del Norte y así poder orientarnos.
+### Flecha del norte
+
+La **flecha del norte** (denominada también rosa de los vientos) es una figura que muestra las direcciones principales, Norte, Sur, Este y Oeste. En los mapas se utilizan para indicar la dirección del Norte y así poder orientarnos.
 Para añadir la rosa de los vientos a nuestro mapa tendremos que ir al menú `Diseño` -> `Añadir flecha`, o bien:
  
 ![Puntos Poligonos Ventana](imgs/mapas/7.jpg)
 
-E)	La escala de un mapa es el valor de distancia en el mundo real de una unidad de distancia en dicho mapa. La escala gráfica es la representación dibujada en un plano o mapa de la escala unidad por unidad, donde cada segmento muestra la relación entre la longitud de la representación y el de la realidad.
+### Escala del mapa
+
+La **escala de un mapa** es el valor de distancia en el mundo real de una unidad de distancia en dicho mapa. La escala gráfica es la representación dibujada en un plano o mapa de la escala unidad por unidad, donde cada segmento muestra la relación entre la longitud de la representación y el de la realidad.
 Para añadir la escala a nuestro mapa tenemos que ir al menú `Diseño` -> `Añadir barra de escala`.
  
 ![Puntos Poligonos Ventana](imgs/mapas/8.jpg)
 
-F)	En el **área de créditos** de un mapa es posible añadir texto con información importante como por ejemplo, la información sobre las **fuentes de datos** utilizados, la **calidad de los datos**, **quién** y **cuándo** creó el mapa.
+### Otros
+
+En el **área de créditos** de un mapa es posible añadir texto con información importante como por ejemplo, la información sobre las **fuentes de datos** utilizados, la **calidad de los datos**, **quién** y **cuándo** creó el mapa.
 Para añadir esta información en nuestro mapa haremos el mismo proceso que cuando insertamos el título (añadir etiqueta nueva).
  
 ![Puntos Poligonos Ventana](imgs/mapas/9.jpg)
