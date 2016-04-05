@@ -12,7 +12,7 @@
 
 ## Índice
 
-* Presentación.
+* [Presentación](http://slides.com/ramiroaznar/deck/fullscreen).
 * [Interfaz de Usuario](https://github.com/ramiroaznar/intro-qgis/blob/master/interfaz.md).
 * [Análisis vectorial](https://github.com/ramiroaznar/intro-qgis/blob/master/vectorial.md).
 * [Complementos](https://github.com/ramiroaznar/intro-qgis/blob/master/complementos.md).
