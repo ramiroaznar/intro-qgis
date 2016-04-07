@@ -32,5 +32,3 @@
 * Comunidad de Madrid. Fuente: CNIG. BTN100.
 * Municipios de Madrid. Fuente: CNIG. BTN100.
 * Límites Administrativos de España. Fuente: DIVA-GIS.
-
-[Descarga](https://drive.google.com/open?id=0B2wHnLxPlbTHWTZvc0NvQzRORVU)
