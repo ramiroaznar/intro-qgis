@@ -73,7 +73,7 @@ Para añadir la escala a nuestro mapa tenemos que ir al menú `Diseño` -> `Aña
  
 ![Puntos Poligonos Ventana](imgs/mapas/8.jpg)
 
-### Otros
+### Fuentes utilizadas o área de créditos
 
 En el **área de créditos** de un mapa es posible añadir texto con información importante como por ejemplo, la información sobre las **fuentes de datos** utilizados, la **calidad de los datos**, **quién** y **cuándo** creó el mapa.
 Para añadir esta información en nuestro mapa haremos el mismo proceso que cuando insertamos el título (añadir etiqueta nueva).
