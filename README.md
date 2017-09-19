@@ -7,7 +7,7 @@
 * Título: Curso de Introducción a QGIS.
 * Organiza: GeoInquietos Madrid y Medialab-Prado.
 * Duración: 4 horas.
-* Lugar: Medialab-Prado, Calle de la Alameda, 15, 28014 Madrid (Metro Atocha - Línea 1).
+* Lugar: Auditorio de Medialab-Prado, Calle de la Alameda, 15, 28014 Madrid (Metro Atocha - Línea 1).
 * Ponentes: Jesús García (organizador), Carmen Langa, Francisco Raga, Marco Rizzetto y Ramiro Aznar.
 
 ## Índice
@@ -26,6 +26,8 @@
 * [QGIS](http://www.qgis.org/es/site/).
 
 ## Datos
+
+* [Descarga los datos del taller](https://goo.gl/U2evkC)
 
 * Ríos de España. Fuente: MAGRAMA.
 * Vertidos (shp y csv). Fuente: CCHH del Tajo.
