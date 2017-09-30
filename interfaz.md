@@ -16,22 +16,22 @@ Este menú permite modificar las opciones y la configuración del programa, dest
 ![Menú de Configuración](imgs/interfaz/MenuConfiguracion.PNG)
 ![Opciones](imgs/interfaz/Opciones.PNG)
 
-###Menú Ver
+### Menú Ver
 En este menú se encuentran las herramientas para desplazar el mapa, seleccionar objetos y elementos, hacer zoom, medir, etc. Generalmente es más comodo acceder a estas herramientas desde la barra de herramientas `Navegación de Mapas` o directamente con los botones del ratón: botón central para desplazar, rueda para hacer zoom, botón izquierdo para seleccionar y derecho para confirmar.
 En el sub-menú `Paneles` y `Barras de Herramientas` se pueden encender o apagar las barras de herramienta de la interfaz gráfica y de los plugins.
 
 ![Menú Ver](imgs/interfaz/MenuVer.PNG)
 ![Barra Ver](imgs/interfaz/BarraVer.PNG)
 
-##Gestión de Capas
+## Gestión de Capas
 
-###Menú Capa
+### Menú Capa
 Este menú, seguramente uno de los más importantes, nos permite gestionar las capas en QGIS, está estrictamente enlazado con el `Panel de Capas` y con la barra de herramientas **Administrar Capas**. Desde este menú podemos crear nuevas capas (Shape, Spatialite, etc.), añadir capas existentes al proyecto (vectoriales, raster, WMS...), guardar, conmutar edición, acceder al menú de propiedades de una capa, y abrir la tabla de atributos, entre otras cosas... 
 
 ![Menú Capa](imgs/interfaz/MenuCapa.PNG)
 ![Barra Capa](imgs/interfaz/BarraCapa.PNG)
 
-###Añadir Capas
+### Añadir Capas
 Vamos a ver ahora como añadir algunas capas..
 
 * Añadir una capa vectorial usando el menú **Capa -> Añadir Capa -> Añadir Capa Vectorial** seleccionar `Archivo` y el archivo **CCMM.shp** que es una capa de tipo polígono del territorio de la Comunidad de Madrid
@@ -66,13 +66,13 @@ Una vez que tengamos la dirección del servidor podemos crear una nueva conexió
 
 ![Añadir Capa WMS](imgs/interfaz/AnadirWMS.PNG)
 
-###Panel de Capas
+### Panel de Capas
 El panel de capas es la herramienta de QGIS para gestionar la visibilidad y el orden de las capas, para seleccionarlas y para manipularlas en general. En este menú podemos encender o apagar capas o arrastrarlas para cambiar el orden de visualización, la capa más arriba en el panel corresponde con la capa más arriba en el espacio mapa y por tanto en general cubrirá los objetos inferiores. En este menú podemos definir *presets* de visualización, filtrar las capas, crear grupos y naturalmente eliminar capas o grupos.
 
 
 ![Panel de Capas](imgs/interfaz/PanelCapas.PNG)
 
-###Visualización de las capas
+### Visualización de las capas
 Cada capa en QGIS puede tener su propio estilo, esto significa que podemos asignar a cada capa una simbología, un estilo de visualización, un color, una etiqueta, podemos definir la visibilidad dependiendo de la escala, etc.
 
 * Símbolo único: es la forma más sencilla de visualizar un objeto, todos los objetos espaciales en esta capa tendrán el mismo estilo de visualización.
@@ -93,7 +93,7 @@ A la capa de "áreas protegidas" podemos asignar un relleno de capa semi-transpa
 
 ![Etiquetas](imgs/interfaz/Etiquetas.PNG)
 
-##La tabla de Atributos
+## La tabla de Atributos
 
 Por último es importante hablar de la tabla de attributos, se puede acceder a la tabla desde el menú **Capa -> Abrir tabla de atributos** o con el botón en la barra de herramientas de Navegación o pinchando con el botón derecho en la capa en el Panel de Capas y seleccionando "Tabla de atributos". La interfaz de la Tabla de Atributos de QGis es muy potente e intuitiva, desde la interfaz directamente podemos conmutar la edición, borrar objetos, seleccionar objetos, visualizar en el mapa los objetos que seleccionamos en la tabla o vice versa buscar en la tabla los objetos que seleccionamos en el mapa, podemos crear nuevas columnas o borrar columnas, y sobretodo, podemos con la herramienta de "calculadora de campos" añadir nuevos campos calculando nuevos valores a partir de los datos que tenemos...
 
