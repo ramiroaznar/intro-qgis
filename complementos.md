@@ -5,7 +5,7 @@
 
 Los complementos son accesorios a la instalación básica de QGIS que expanden su funcionalidad. Hay incontables complementos de libre acceso, pero en este curso hemos seleccionado sólo cinco con fines demostrativos.
 
-###Open Layers Plugin   ![](imgs/plugins/0.jpg?raw=true)
+### Open Layers Plugin   ![](imgs/plugins/0.jpg?raw=true)
 
 El primer complemento que debemos instalar es `Open Layers` plugin, que permite visualizar las capas de Google, OpenStreetMaps y otros, en el fondo de nuestro canvas.
 
@@ -35,7 +35,7 @@ Esta herramienta puede accederse desde el menú `Vectorial-XY Tools`.
 
 | ***Ejercicio:Importar a excel el shapefile de rios.*** |
 
-###CadTools  ![](imgs/plugins/5.jpg?raw=true)
+### CadTools  ![](imgs/plugins/5.jpg?raw=true)
 
 Herramientas para llevar a cabo funciones de tipo CAD.
 
@@ -43,7 +43,7 @@ Al igual que el resto, volvemos a `Complementos/Administrar e instalar complemen
 
 | ***Ejercicio: Con los datos proporcionados de la comunidad de Madrid ver que hacen las herramientas.*** |
 
-###Qgis2treejs ![](imgs/plugins/6.jpg?raw=true)
+### Qgis2treejs ![](imgs/plugins/6.jpg?raw=true)
 
 Gracias al plugin `Qgis2treejs` podemos crear fácilmente visualizaciones en 3D de nuestros datos geográficos. Qgis2threejs es un plugin de Minoru Akagi que exporta los datos del terreno combinados con la imagen del canvas de QGIS y opcionalmente datos vectoriales a un archivo HTML que se puede ver en 3D en cualquier navegador web que soporte WebGL. Este complemento hace uso de la librería Three.js.
 
@@ -61,7 +61,7 @@ Aplicado a **geología** para ver sondeos.
 
 | ***Ejercicio: Con la información vectorial y la capa base descargado de OLPlugin,realizar una visión en 3D.*** |
 
-###MMQGIS
+### MMQGIS
 
 Es una colección de  plugins para realizar operaciones con capas vectoriales. Contiene:
 
@@ -78,27 +78,27 @@ Es una colección de  plugins para realizar operaciones con capas vectoriales. C
 
 Acceder a `Complementos/Administrar e instalar complementos`, como en el resto y buscarlo por su nombre.
 
-###CartoDB  ![](imgs/plugins/11.jpg?raw=true)
+### CartoDB  ![](imgs/plugins/11.jpg?raw=true)
 
 Permite ver, crear, editar o borrar datos desde tu cuenta de CartoDB usando QGIS.
 [Enlace](http://plugins.qgis.org/plugins/QgisCartoDB/)
 
-###QuickOSM ![](imgs/plugins/12.jpg?raw=true)
+### QuickOSM ![](imgs/plugins/12.jpg?raw=true)
 
 Permite ejecutar consultas desde Qgis para obtener datos de OSM.
 [Enlace](http://plugins.qgis.org/plugins/QuickOSM/)
 
-###Customize ToolBars <img src="imgs/plugins/13.jpg" width="30" height="30">
+### Customize ToolBars <img src="imgs/plugins/13.jpg" width="30" height="30">
 
 Permite crear barras de herramientas personalizadas con los botones que el usuario quiera. Solo es necesario arrastrar y soltar los botones desde la parte izquierda a la barra creada en la parte derecha que el usuario quiera.
 [Enlace](http://plugins.qgis.org/plugins/CustomToolBar/)
 
-###Instagram2qgis <img src="imgs/plugins/14.jpg" width="30" height="30">
+### Instagram2qgis <img src="imgs/plugins/14.jpg" width="30" height="30">
 
 Permite buscar y descargar imagenes de Instagram y crea un shapefile puntual con las mismas.
 [Enlace](http://plugins.qgis.org/plugins/instagram2qgis/)
 
-###Load QSS - UI themes <img src="imgs/plugins/15.jpg" width="30" height="30">
+### Load QSS - UI themes <img src="imgs/plugins/15.jpg" width="30" height="30">
 
 Permite cargar archivos de estilo *.qss* y cambiar el "look and feel" de QGIS. Se proporcionan algunos ejemplos.
 [Enlace](http://plugins.qgis.org/plugins/LoadQSS/)
