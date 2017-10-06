@@ -43,7 +43,7 @@ Al igual que el resto, volvemos a `Complementos/Administrar e instalar complemen
 
 | ***Ejercicio: Con los datos proporcionados de la comunidad de Madrid ver que hacen las herramientas.*** |
 
-### Qgis2treejs ![](imgs/plugins/6.jpg?raw=true)
+### Qgis2threejs ![](imgs/plugins/6.jpg?raw=true)
 
 Gracias al plugin `Qgis2treejs` podemos crear fácilmente visualizaciones en 3D de nuestros datos geográficos. Qgis2threejs es un plugin de Minoru Akagi que exporta los datos del terreno combinados con la imagen del canvas de QGIS y opcionalmente datos vectoriales a un archivo HTML que se puede ver en 3D en cualquier navegador web que soporte WebGL. Este complemento hace uso de la librería Three.js.
 
