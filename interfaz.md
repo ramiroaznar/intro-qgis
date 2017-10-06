@@ -3,18 +3,22 @@
 ## Menús y barras de herramientas principales
 
 ### Menú de Proyecto
-Este menú contiene las herramientas básicas gestión de proyectos y de archivos, crear un proyecto, guardar, etc.
-Es muy importante el sub-menú `Propiedades del proyecto` que nos permite gestionar las propiedades básicas del proyecto como el título del proyecto, algunos colores de la interfaz y sobretodo el **Sistema de Referencia de Coordenadas** o **SRC** del proyecto.
+Este menú contiene las herramientas básicas gestión de proyectos y de archivos, permite crear un proyecto, guardar, gestionar los diseñadores de impresión, etc.
+
+Es muy importante el sub-menú `Propiedades del proyecto` que nos permite gestionar las propiedades básicas del proyecto como el título, algunos colores de la interfaz y sobretodo el **Sistema de Referencia de Coordenadas** o **SRC** del proyecto.
 Del diseñador de impresiones se hablará en la última parte del curso.
 
 ![Menú de Proyecto](imgs/interfaz/MenuProyecto.PNG)
 ![Barra de Herramientas de Proyecto](imgs/interfaz/BarraProyecto.PNG)
 
 ### Menú de Configuración
-Este menú permite modificar las opciones y la configuración del programa, destaca el sub-menú `Opciones` que permite cambiar los ajustes de QGIS tales como el idioma, el estilo de la interfaz, el SRC predeterminado, la reproyección al vuelo, etc.
+Este menú permite modificar las opciones y la configuración del programa, definir los estilos de símbolos y líneas que luego se podrán utilizar en el los mapas, personalizar la interfaz del programa y los atajos de teclado, y editar las opciones de autoensamblado (una herramienta indispensable a la hora de digitalizar datos o mapas).
+
+Destaca el sub-menú `Opciones` que permite cambiar los ajustes de QGIS tales como el idioma, el estilo de la interfaz, el SRC predeterminado, la reproyección al vuelo, etc.
 
 ![Menú de Configuración](imgs/interfaz/MenuConfiguracion.PNG)
 ![Opciones](imgs/interfaz/Opciones.PNG)
+
 
 ### Menú Ver
 En este menú se encuentran las herramientas para desplazar el mapa, seleccionar objetos y elementos, hacer zoom, medir, etc. Generalmente es más comodo acceder a estas herramientas desde la barra de herramientas `Navegación de Mapas` o directamente con los botones del ratón: botón central para desplazar, rueda para hacer zoom, botón izquierdo para seleccionar y derecho para confirmar.
@@ -26,7 +30,7 @@ En el sub-menú `Paneles` y `Barras de Herramientas` se pueden encender o apagar
 ## Gestión de Capas
 
 ### Menú Capa
-Este menú, seguramente uno de los más importantes, nos permite gestionar las capas en QGIS, está estrictamente enlazado con el `Panel de Capas` y con la barra de herramientas **Administrar Capas**. Desde este menú podemos crear nuevas capas (Shape, Spatialite, etc.), añadir capas existentes al proyecto (vectoriales, raster, WMS...), guardar, conmutar edición, acceder al menú de propiedades de una capa, y abrir la tabla de atributos, entre otras cosas... 
+Este menú, seguramente uno de los más importantes, nos permite gestionar las capas en QGIS, está estrictamente enlazado con el `Panel de Capas` y con la barra de herramientas **Administrar Capas**. Desde este menú podemos crear nuevas capas (Shape, Spatialite, etc.), añadir capas existentes al proyecto (vectoriales, raster, WMS...), guardar (en este caso se guarda la capa y no el proyecto), conmutar edición, acceder al menú de propiedades de una capa, y abrir la tabla de atributos, entre otras cosas... [Aquí](https://docs.qgis.org/2.18/en/docs/gentle_gis_introduction/vector_data.html) se pueden encontrar más informaciones sobre las capas en los sistemas SIG.
 
 ![Menú Capa](imgs/interfaz/MenuCapa.PNG)
 ![Barra Capa](imgs/interfaz/BarraCapa.PNG)
@@ -58,7 +62,7 @@ Vamos a ver ahora como añadir algunas capas..
 
 ![Botón Capa WMS](imgs/interfaz/AnadirWMS.PNG)
 
-Utilizaremos uno de los servicios que ofrece la plataforma web de la Comunidad de Madrid (pero el ayuntamiento de Madrid y el Instituto Geográfico Nacional ofrecen servicios similares) añadiendo la ortofoto del territorio de la comunidad. En la página web de la [IDEM - Infraestructura de Datos Espaciales Comunidad de Madrid](http://www.madrid.org/cartografia/idem/html/web/ortofotografias.htm) podemos encontrar la URL del servido WMS de la ortofoto del año 2014 "http://www.madrid.org/cartografia/wms/wms_orto_2014.xml".
+Utilizaremos uno de los servicios que ofrece la plataforma web de la Comunidad de Madrid (pero el ayuntamiento de Madrid y el Instituto Geográfico Nacional ofrecen servicios similares) añadiendo la ortofoto del territorio de la comunidad. En la página web de la [IDEM - Infraestructura de Datos Espaciales Comunidad de Madrid](http://www.madrid.org/cartografia/idem/html/index.htm) podemos encontrar la URL del servido WMS de la ortofoto del año 2014 "http://www.madrid.org/cartografia/wms/wms_ORTO_2014_ETRS89_F30.xml?".
 
 ![Añadir Servidor WMS](imgs/interfaz/ConexionWMS.PNG)
 
