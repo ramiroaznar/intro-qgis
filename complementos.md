@@ -74,7 +74,7 @@ Es una colección de  plugins para realizar operaciones con capas vectoriales. C
 
 | ***Ejercicio: Con la información vectorial suministrada realizar todo tipo de operaciones.*** |
 
-##Otros Plugins
+## Otros Plugins
 
 Acceder a `Complementos/Administrar e instalar complementos`, como en el resto y buscarlo por su nombre.
 
